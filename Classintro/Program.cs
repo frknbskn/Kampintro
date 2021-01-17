@@ -51,5 +51,7 @@ namespace Classintro
         public string Egitmen { get; set; }
 
         public int izlenmeOrani { get; set; }
+
+        
     }
 }

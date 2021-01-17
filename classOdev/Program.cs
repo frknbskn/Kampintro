@@ -32,11 +32,15 @@ namespace classOdev
             urun4.gorsel = "fotoğrafı";
             urun4.indirimsizFiyat = 300;
             urun4.indirimliFiyat = 400;
+
+            urun urun5 = new urun("krampon", 350, 200, "fotoğrafı"); //karıştırıcıyla
+
             
 
             urun[] urunler = new urun[] { urun1, urun2, urun3, urun4 };
 
-            Array.Sort(urunler);
+            
+
 
 
             foreach (var urun in urunler)
@@ -100,7 +104,13 @@ namespace classOdev
       
         public string gorsel { get; set; }
 
-
+        public urun(string urunAdii, int indirimsizFiyatt, int indirimliFiyatt, string gorsell) //constructor
+        {
+            urunAdi = urunAdii;
+            indirimsizFiyat = indirimsizFiyatt;
+            indirimliFiyat = indirimliFiyatt;
+            gorsel = gorsell;
+        }
 
     }
 }
