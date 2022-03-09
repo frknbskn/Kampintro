@@ -21,7 +21,7 @@ namespace Koleksiyonlar
             Console.WriteLine(isimler2[2]);
             
             isimler2.Add("Başkan");
-            Console.WriteLine(isimler2[4]);
+            Console.WriteLine(isimler2[3]);
             Console.WriteLine(isimler2[0]);
 
         }
