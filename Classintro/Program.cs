@@ -24,13 +24,10 @@ namespace Classintro
             kurs3.Egitmen = "Nesli";
             kurs3.izlenmeOrani = 81;
 
-            Kurs kurs4 = new Kurs();
-            kurs4.KursAdi = "C++";
-            kurs4.Egitmen = "Gizem";
-            kurs4.izlenmeOrani = 99;
+           
 
             //Console.WriteLine(kurs1.KursAdi + " : " + kurs1.Egitmen);
-            Kurs[] kurslar = new Kurs[] {kurs1,kurs2,kurs3,kurs4};
+            Kurs[] kurslar = new Kurs[] {kurs1,kurs2,kurs3};
 
             foreach (var kurs in kurslar)
             {
